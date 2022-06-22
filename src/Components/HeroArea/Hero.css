@@ -1,0 +1,5 @@
+.HeroContainer{
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient(to right top , #0B65C6, #0C62BD);
+}
