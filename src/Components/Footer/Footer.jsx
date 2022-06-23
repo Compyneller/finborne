@@ -36,9 +36,10 @@ const Footer = () => {
               Finborne.co.in App in certain jurisdictions due to potential or
               actual regulatory restrictions.
               <br />
-              <br /> Finborne is the trading name of Trackon Canada Private
-              Limited and it is situated at the address – 1200- 1015 4 ST SW,
-              Calgary, Alberta, T2R 1J4, Canada
+              <br /> Finborne is the trading name of UNIVERSO MAGNÂNIMO,
+              UNIPESSOAL LDA and it is situated at the address – Praceta
+              Sebastião da Gama, nº 3, 3º ESQ, Massamá, Lisbon, Sintra,Massamá
+              and Monte Abraão 2745 837 Queluz
             </p>
             <Row>
               <Col>
@@ -74,30 +75,30 @@ const Footer = () => {
             </Row>
           </Col>
           <Col sm={12} lg={4}>
-            <h5 className="text-center">FOLLOW US</h5>
+            <h5 className="text-center">CONTACT US</h5>
             <Row>
-              <Col className="d-flex">
+              <p>Address : Praceta Sebastião da Gama, nº 3, 3º ESQ, Massamá</p>
+              <p>District : Lisbon</p>
+              <p>Municipality : Sintra</p>
+              <p>Parish : Massamá and Monte Abraão 2745 837 Queluz</p>
+              <p>
                 <img
-                  className="w-50 mx-auto"
-                  src="https://img.icons8.com/ios-filled/2x/medium-logo.png"
-                  alt=""
-                  style={{ filter: "invert(1)" }}
-                />
-              </Col>
-              <Col className="d-flex">
-                <img
-                  className="w-50 mx-auto"
-                  src="https://img.icons8.com/color/2x/facebook.png"
-                  alt=""
-                />
-              </Col>
-              <Col className="d-flex">
-                <img
-                  className="w-50 mx-auto"
-                  src="https://img.icons8.com/color/2x/twitter.png"
+                  style={{
+                    filter: "invert(1)",
+                    height: "25px",
+                    marginRight: "10px",
+                  }}
+                  src="https://img.icons8.com/ios-filled/2x/filled-message.png"
                   alt=""
                 />
-              </Col>
+                :
+                <a
+                  style={{ color: "white", marginLeft: "10px" }}
+                  href="mailto:universomagnanimo@gmail.com"
+                >
+                  universomagnanimo@gmail.com
+                </a>
+              </p>
             </Row>
           </Col>
         </Row>
